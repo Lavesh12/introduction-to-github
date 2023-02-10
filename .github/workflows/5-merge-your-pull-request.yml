@@ -43,7 +43,7 @@ jobs:
       - name: Update to step X
         uses: skills/action-update-step@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: +${{ secrets.GITHUB_TOKEN }}
           from_step: 5
           to_step: X
           branch_name: update-game
